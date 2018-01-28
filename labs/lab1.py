@@ -38,14 +38,18 @@ def give_me_a_float():
     pass
 
 def give_me_a_list():
-    """
-    This function returns a list
-    """
+    
+    list = ['blue' , 'green', 'yellow']
+    
+    return list
+
     pass
 
 def give_me_a_dictionary():
     
-    return list = ['blue' , 'green', 'yellow']
+    food = {"apple" : "yes","table" : "no"}
+
+    return food
 
     pass
 
