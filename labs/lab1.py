@@ -54,19 +54,22 @@ def give_me_a_dictionary():
     pass
 
 def give_me_a_tuple():
-    """
-    This function returns a tuple
-    """
+    
+    tup1 = ('things', 'stuff', 10, 21);
+
+    return tup1
+
     pass
 
 def sum_numbers_one_to_ten():
-    """
-    This function returns the sum of all numbers one to ten
-    Use the range function:
-    https://docs.python.org/3/library/functions.html
-    Use the accumulator pattern:
-    http://interactivepython.org/runestone/static/thinkcspy/Functions/TheAccumulatorPattern.html
-    """
+    start = 1 
+    end = 10 
+
+    numlist = range(start, end + 1)
+    finalsum = sum(numlist)
+    return finalsum
+
+
     pass
 
 def check_is_even(number):
