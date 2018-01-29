@@ -73,14 +73,12 @@ def sum_numbers_one_to_ten():
     pass
 
 def check_is_even(number):
-    number = 3
+    if number  % 2 == 0:  
+     return True
+    else:
+     return False     
 
-    if number is even 
-     return true 
-
-     if odd 
-        return false
-
+    
     pass
 
 def check_is_less_than(number1, number2):
@@ -88,4 +86,11 @@ def check_is_less_than(number1, number2):
     This functions returns True if number1 < number2
     else False
     """
+
+    if number1 < number2:
+        return True
+    
+    else:
+        return False 
+    
     pass
