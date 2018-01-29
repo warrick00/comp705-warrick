@@ -73,12 +73,14 @@ def sum_numbers_one_to_ten():
     pass
 
 def check_is_even(number):
-    """
-    This function returns True if num is even
-    else False
-    hint: use modulo operator
-    https://docs.python.org/3/reference/expressions.html
-    """
+    number = 3
+
+    if number is even 
+     return true 
+
+     if odd 
+        return false
+
     pass
 
 def check_is_less_than(number1, number2):
