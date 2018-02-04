@@ -19,4 +19,8 @@ from . import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', views.home, name='home')
+    url(r'^$', views.portfolio, name='portfolio')
+    url(r'^$', views.resume, name='resume')
+    url(r'^$', views.contacts, name='contacts')
 ]
