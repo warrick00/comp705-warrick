@@ -38,3 +38,11 @@ def restock_inventory(inventory):
         value: integer that equals the number of that item is restocked
     Returns: updated dictionary where each inventory item is restocked
     """
+def filter_0_items(inventory):
+    """
+    Removes items that have a value of 0 from a dictionary of inventories
+    inventory: dictionary with:
+        key: trinf that is the name of the inventory item
+        value: nteger that equals the number of that item currenlty on hand
+    Returns: the same inventory_dict with and item that had 0 quantitiy removed
+    """
