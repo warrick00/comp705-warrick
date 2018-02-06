@@ -34,4 +34,7 @@ def restock_inventory(inventory):
     """
     increase inventory of each item in dictionary by 10
     inventory: a dictionary with:
+        key: string that is the name of the inventory item
+        value: integer that equals the number of that item is restocked
+    Returns: updated dictionary where each inventory item is restocked
     """
