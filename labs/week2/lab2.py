@@ -46,3 +46,11 @@ def filter_0_items(inventory):
         value: nteger that equals the number of that item currenlty on hand
     Returns: the same inventory_dict with and item that had 0 quantitiy removed
     """
+def average_grades(grades):
+    """
+    Takes grade values from a dictionary and averages them into a final grade
+        grades: a dictionary of grades with"
+        key: string of students name
+        value: list of integer grades recieved in class
+        Returns: dictionary that averages out the grades of each students
+    """
