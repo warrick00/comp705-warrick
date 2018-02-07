@@ -1,7 +1,7 @@
 """
-lab2.py
+lab3.py
 Ryan Warrick
-1/30/2018
+2/6/2018
 """
 
 def squared(num_list):
