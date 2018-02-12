@@ -1,4 +1,10 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 def home(request):
-    return HttpResponse('Portfolio Homepage')
+    """
+    Renders home page
+    """
+
+    context = {} # and empty dictionary
+
+    return render(request, 'home.html', context)
