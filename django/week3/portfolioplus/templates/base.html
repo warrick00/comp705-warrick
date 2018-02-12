@@ -1,17 +1,20 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Portfolio</title>
-    </head>
-    <body>
-        <div id="container">
-            <h1>Welcome to {{ our_greeting }} </h1>
+  <head>
+    <title>Portfolio</title>
+    <link rel='stylesheet' href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+      <nav>
+        <a href="">Portfolio</a> |
+        <a href="">Resume</a> |
+        <a href="">Contact</a> |
+      </nav>
+
+      {% block content %}
+      {% endblock %}
 
 
-
-            {% block content %}
-            {% endblock %}
-
-        </div>
-    </body>
+  </body>
 </html>
