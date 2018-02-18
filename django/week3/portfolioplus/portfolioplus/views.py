@@ -47,3 +47,13 @@ def contact(request):
     context = {'our_greeting':greeting} # and empty dictionary
 
     return render(request, 'contact.html', context)
+
+def resumeplus(request):
+    """
+    Renders Resume Page that contains query Data
+    """
+    greeting = "Portfolio Plus - Ryan Warrick"
+
+    context = {'our_greeting':greeting} # and empty dictionary
+
+    return render(request, 'resumeplus.html', context)

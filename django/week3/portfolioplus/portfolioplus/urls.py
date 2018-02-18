@@ -24,5 +24,6 @@ urlpatterns = [
     path(r'portfolio', views.portfolio, name='portfolio'),
     path(r'contact', views.contact, name='contact'),
     path(r'resume/', include('resume.urls')),
+    path(r'resumeplus', views.resumeplus, name='resumeplus'),
     path(r'admin', admin.site.urls)
 ]
